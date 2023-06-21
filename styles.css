@@ -1,17 +1,23 @@
 
 /*Elements*/
+html {
+    background: rgb(245, 233, 193);
+}
+
 h1 {
-    color: white;
+    color: rgb(74, 74, 74);
     align-items: center;
     padding-left: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
 }
 
 header {
     display: flex;
-    background: rgb(245, 200, 208);
+    background: linear-gradient(rgb(191, 232, 246), white);
     padding: 20px;
     border-radius: 10px;
+    border: 5px solid rgb(74, 74, 74);
 }
 
 /*Classes*/
@@ -23,5 +29,9 @@ header {
 
 /*ID tags*/
 #aboutButton {
+    display: flex;
     justify-content: flex-end;
+    padding: 0px;
 }
+
+
