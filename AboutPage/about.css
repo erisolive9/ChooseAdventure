@@ -11,9 +11,9 @@ body {
 h1 {
     color: rgb(74, 74, 74);
     align-items: center;
-    padding-left: 20px;
+    padding-left: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     margin-left: 10px;
 }
 
@@ -50,10 +50,10 @@ header {
     display: flex;
     justify-content: space-between;
     background: rgb(191, 232, 246);
-    padding: 15px;
-    margin: 15px;
+    margin: 5px 15px 20px 15px; 
     border-radius: 10px;
     border: 5px solid rgb(74, 74, 74);
+    box-shadow: 5px 5px 10px rgb(74, 74, 74);
 }
 
 iframe {
@@ -73,6 +73,7 @@ iframe:hover {
     padding-top: 30px;
 }
 
+
 /*ID tags*/
 #title {
     display: flex;
@@ -80,17 +81,18 @@ iframe:hover {
     text-shadow: 1px 1px 20px white;
 }
 
-#questions {
+#home {
     display: flex;
     justify-items: flex-end;
-    padding: 0px;
-    margin: 0px;
-    background: white;
+    padding: 10px;
+    background: rgb(191, 232, 246);
     border: none;
 }
 
-#questions:hover {
-    box-shadow: 3px 3px 10px white;
+#logo {
+    width: 100px;
+    height: 80px;
+    padding: 10px;
 }
 
 #footer {
@@ -102,4 +104,6 @@ iframe:hover {
     border-top: 4px solid rgb(74, 74, 74);
     background-color: rgb(191, 232, 246)
 }
+
+
 

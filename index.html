@@ -16,18 +16,57 @@
 <body>
   <header>
     <div id="title">
-      <img src="Photos/butterflyLogo.png" alt="A blue butterfly drawing." width="120px">
+      <img src="Photos/butterflyLogo.png" alt="A blue butterfly drawing." id="logo">
       <h1>Karma</h1>
     </div>
 
     <div id="questions">
-      <a href="AboutPage/about.html"><img src="Photos/questionLogo.png" alt="A question mark button"  width="100px" height="100px"></a>
+      <center><a href="AboutPage/about.html"><img src="Photos/questionLogo.png" alt="A question mark button"  width="75px" height="75px"></a></center>
     </div>
   </header>
 
-    <div id="mainSection">
+    <!--First section with situation and options-->
+    <div id="section">
+      <div class="container">
+        <img src="Photos/breakfastPic.jpg" id="mainPic">
+        <div class="block">
+          <h3 id="situation">Situation #1</h3>
+          <p id="description">You've just woken up for another day at your high school. After getting dressed in a comfortable
+            outfit, you walked over to the kitchen to see your parents cooking together on the stove.
+            On the dining table, they've laid out an enormous array of breakfast foods for you. However, you 
+            look at the clock on the wall and find that it's already 7:54 AM, and you have to be at school by 8!
+            Your walk there will take about 5 minutes.
+          </p>
+        </div>
+      </div>
 
+      <center><h2>What will you do?</h2></center>
+
+      <div class="options1">
+        <button id="button1">Refuse the food and leave, your parents cooking is horrible.</button>
+        <button id="button2">Grab a piece of toast and some fruit for your walk and thank them.</button>
+        <button id="button3">Sit down to eat with your parents, it's okay if you're late.</button>
+      </div>
     </div>
+
+    <!--Other options for the other screens, will be hidden to start.-->
+      <!--From button1 on screen 1-->
+      <div id="options2">
+        <button id="button4">Apologize to your mom and tell her you appreciate her.</button>
+        <button id="button5">Ignore the text, she's overreacting over breakfast.</button>
+      </div>
+
+      <!--From button2 on screen 1-->
+      <div id="options3">
+        <button id="button6">Help</button>
+        <button id="button7">Focus</button>
+      </div>
+
+      <!--From button3 on screen 1-->
+      <div id="options4">
+        <button id="button8">Skip</button>
+        <button id="button9">Apologize</button>
+      </div>
 
   <script src="script.js"></script>
 </body>
