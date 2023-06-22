@@ -1,61 +1,105 @@
 /*Elements*/
 html {
     background: rgb(255, 230, 177);
+    text-align: center;
+}
+
+body {
+    margin: 0px;
 }
 
 h1 {
     color: rgb(74, 74, 74);
     align-items: center;
-    padding-left: 15px;
+    padding-left: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     margin-left: 10px;
 }
 
 h2 {
-    color: rgb(2, 2, 160);
-    background-color: rgb(220, 246, 255);
+    color: white;
+    background-color: rgb(175, 12, 118);
+    opacity: .9;
     text-indent: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 3px solid rgb(74, 74, 74);
-    border-radius: 10px;
-    padding: 20px 20px 20px 20px;
+    border: 2px solid rgb(74, 74, 74);
+    border-radius: 2px;
+    padding: 15px;
     margin: 0px 0px 10px 20px;
+    box-shadow: 5px 5px 20px rgb(74, 74, 74);
     display: inline;
 }
 
+h3 {
+    color: rgb(74, 74, 74);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 p {
-    margin: 40px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-indent: 30px;
+    font-size: 20px;
+    text-indent: 40px;
+    text-align: left;
     line-height: 2;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(rgb(191, 232, 246), white);
-    padding: 20px;
+    background: rgb(191, 232, 246);
+    padding: 15px;
+    margin: 15px;
     border-radius: 10px;
     border: 5px solid rgb(74, 74, 74);
+}
+
+iframe {
+    margin: 20px 10px 0px 40px;
+    border: 2px solid rgb(74, 74, 74);
+    min-width: 500px;
+    box-shadow: 0px 0px 10px white;
+}
+
+iframe:hover {
+    box-shadow: 2px 2px 20px white;
 }
 
 /*Class tags*/
 .container {
     display: flex;
+    padding-top: 30px;
 }
 
 /*ID tags*/
 #title {
     display: flex;
     justify-items: flex-start;
+    text-shadow: 1px 1px 20px white;
 }
 
 #questions {
     display: flex;
     justify-items: flex-end;
     padding: 0px;
+    margin: 0px;
     background: white;
     border: none;
+}
+
+#questions:hover {
+    box-shadow: 3px 3px 10px white;
+}
+
+#footer {
+    width: auto;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+    margin: 0px;
+    border-top: 4px solid rgb(74, 74, 74);
+    background-color: rgb(191, 232, 246)
 }
 
