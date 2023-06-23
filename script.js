@@ -181,7 +181,7 @@ replay.onclick = function() {
     situation.innerHTML = "Situation #1"
     description.innerHTML = "You've just woken up for another day at your high school. After getting dressed in a comfortable outfit, you walked over to the kitchen to see your parents cooking together on the stove. On the dining table, they've laid out an enormous array of breakfast foods for you. However, you look at the clock on the wall and find that it's already 7:54 AM, and you have to be at school by 8! Your walk there will take about 5 minutes."
     endings.style.display = "block"
-    if (endingsUnlocked.length <= 6) {
+    if (endingsUnlocked.length <= 5) {
         endings.innerHTML = "Endings Unlocked: <br>" + endingsUnlocked
     }
     else {
