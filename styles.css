@@ -1,7 +1,7 @@
 
 /*Elements*/
 html {
-    background: rgb(255, 201, 231);
+    background: rgb(255, 193, 248);
     text-align: center;
 }
 
@@ -56,6 +56,7 @@ header {
 }
 
 button {
+    display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(191, 232, 246);
     border: 2px solid rgb(74, 74, 74);
@@ -109,7 +110,8 @@ button:hover {
     padding: 10px;
 }
 
-#options2, #options3, #options4 {
+#button4, #button5, #button6, #button7, #button8, #button9, #replayButton, #endings {
     display: none;
 }
+
 

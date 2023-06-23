@@ -21,6 +21,7 @@
     </div>
 
     <div id="questions">
+      <p id="endings"></p>
       <center><a href="AboutPage/about.html"><img src="Photos/questionLogo.png" alt="A question mark button"  width="75px" height="75px"></a></center>
     </div>
   </header>
@@ -40,33 +41,28 @@
         </div>
       </div>
 
-      <center><h2>What will you do?</h2></center>
+      <center><h2 id="question">What will you do?</h2></center>
 
-      <div class="options1">
         <button id="button1">Refuse the food and leave, your parents cooking is horrible.</button>
         <button id="button2">Grab a piece of toast and some fruit for your walk and thank them.</button>
         <button id="button3">Sit down to eat with your parents, it's okay if you're late.</button>
-      </div>
     </div>
 
     <!--Other options for the other screens, will be hidden to start.-->
       <!--From button1 on screen 1-->
-      <div id="options2">
-        <button id="button4">Apologize to your mom and tell her you appreciate her.</button>
-        <button id="button5">Ignore the text, she's overreacting over breakfast.</button>
-      </div>
+      <button id="button4">Apologize to your mom and tell her you appreciate her.</button>
+      <button id="button5">Ignore the text, she's overreacting over breakfast.</button>
 
       <!--From button2 on screen 1-->
-      <div id="options3">
-        <button id="button6">Help</button>
-        <button id="button7">Focus</button>
-      </div>
+      <button id="button6">Help your classmate because it's the nice thing to do.</button>
+      <button id="button7">Focus on yourself because you have to keep up your good grades.</button>
 
       <!--From button3 on screen 1-->
-      <div id="options4">
-        <button id="button8">Skip</button>
-        <button id="button9">Apologize</button>
-      </div>
+      <button id="button8">Skip school for the day and go home. School doesn't matter anyways.</button>
+      <button id="button9">Explain that you were running late and apologize. Go to detention after school.</button>
+
+      <!--For endings, goes back to first screen-->
+      <button id="replayButton">Play Again</button>
 
   <script src="script.js"></script>
 </body>
